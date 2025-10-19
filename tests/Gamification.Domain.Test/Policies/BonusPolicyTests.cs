@@ -52,7 +52,6 @@ public class BonusPolicyTests
         Assert.Equal(550, result.TotalXp.Value);
         Assert.Contains("janela reduzida", result.AuditReason);
     }
-    // BonusPolicyTests.cs (Adicionar este novo teste T5)
 
     [Fact(DisplayName = "ConcederBadge_apos_FinalDate_nao_concede_bonus")]
     [Trait("Categoria", "Janelas de Bônus")]
